@@ -1,4 +1,4 @@
-# Личный проект «{{Седона}}»
+# Личный проект «Седона»
 
 * Студент: [Нзау Лунел](https://github.com/Luneldevwb).
 * Наставник: [Нзау Лунел](https://htmlacademy.ru/profile/lunel007).
