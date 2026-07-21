@@ -2,6 +2,7 @@
 
 * Студент: [Нзау Лунел](https://github.com/Luneldevwb).
 * Наставник: [Нзау Лунел](https://htmlacademy.ru/profile/lunel007).
+* Сайт: [Мой проект Седона](https://luneldevwb.github.io/sedona/)
 
 ---
 
