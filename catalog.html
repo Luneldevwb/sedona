@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Каталог</title>
+    <title>Гостиницы Седона</title>
   </head>
   <body>
     <header class="page-header">
@@ -14,7 +14,7 @@
         <ul class="navigation-list">
           <li class="navigation-item"><a href="#" class="navigation-link">Главная</a></li>
           <li class="navigation-item"><a href="#" class="navigation-link">О седоне</a></li>
-          <li class="navigation-item current-link"><a href="catalog.html" class="navigation-link">Гостиницы</a></li>
+          <li class="navigation-item current-link-catalog"><a href="catalog.html" class="navigation-link">Гостиницы</a></li>
         </ul>
 
         <ul class="navigation-list navigation-user">
@@ -35,6 +35,39 @@
     </header>
 
     <main class="main-inner">
+      <section class="inner-header">
+        <h1 class="inner-header-title">Гостиницы Седоны</h1>
+        <ul class="breadcrumbs">
+          <li class="breadcrumbs-item">
+            <a href="index.html" class="breacrumbs-link">
+              <span class="visually-hidden">Главная</span>
+              <!-- <img src="#" alt="иконка главная страница"> -->
+            </a>
+          </li>
+          <li class="breadcrumbs-item">
+            <a class="breacrumbs-link">
+              Гостиницы
+            </a>
+          </li>
+        </ul>
+
+        <!-- Catalog filter -->
+         <form class="catalog-filter" action="#" class="catalog-filter" method="get">
+          <fieldset class="catalog-filter-checkbox">
+            <legend class="catalog-filter-title">Инфраструктура:</legend>
+            <ul class="catalog-filter-list">
+              <li class="catalog-filter-item">
+                <label class="catalog-checked">
+                  <input class="visually-hidden filter-input" type="checkbox" name="infrastructure" checked  value="pool">
+                  <span class="label-filter">Бассейн</span>
+                </label>
+              </li>
+            </ul>
+          </fieldset>
+
+         </form>
+
+      <section/>
 
       <section class="subscribe subscribe-img subscribe-witout-img">
         <h2 class="header-block subscribe-title">Подпишитесь на рассылку</h2>
