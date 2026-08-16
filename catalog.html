@@ -52,7 +52,7 @@
         </ul>
 
         <!-- Catalog filter -->
-         <form class="catalog-filter" action="#" class="catalog-filter" method="get">
+        <form class="catalog-filter" action="#" class="catalog-filter" method="get">
           <fieldset class="catalog-filter-checkbox">
             <legend class="catalog-filter-title">Инфраструктура:</legend>
             <ul class="catalog-filter-list">
@@ -105,8 +105,37 @@
             </ul>
           </fieldset>
 
+          <fieldset class="catalog-filter-price">
+            <legend class="catalog-filter-title">Стоимость, <span>₽</span> :</legend>
 
-         </form>
+              <div class="catalog-filter-price-inputs">
+                <input class="catalog-filter-price-min" type="number" id="priceMin" name="price-min" value="0">
+                <input class="catalog-filter-price-max" type="number" id="priceMax" name="price-max" value="9000">
+                <span class="catalog-filter-price-hint">от</span>
+                <span class="catalog-filter-price-hint">до</span>
+              </div>
+
+              <div class="catalog-filter-range-scale">
+                <div class="catalog-filter-range-track">
+                  <button class="range-scale-toggle toggle-min" type="button">
+                    <span class="visually-hidden">Изменить минимальную цену</span>
+                  </button>
+
+                  <button class="range-scale-toggle toggle-max" type="button">
+                    <span class="visually-hidden">Изменить максимальную цену</span>
+                  </button>
+                </div>
+                <!-- <div class="catalog-filter-price-range" id="sliderRange"></div> -->
+                <!-- <input class="catalog-filter-price-thumb catalog-filter-price-thumb--min" type="range" id="thumbMin" min="0" max="9000" value="0">
+                <input class="catalog-filter-price-thumb catalog-filter-price-thumb--max" type="range" id="thumbMax" min="0" max="9000" value="9000"> -->
+              </div>
+          </fieldset>
+
+          <div class="catalog-buttons">
+            <button class="button-submit" type="submit">Применить</button>
+            <button class="button-reset" type="reset">Сбросить</button>
+          </div>
+        </form>
 
       <section/>
 
@@ -118,6 +147,43 @@
           <input type="email" placeholder="Ваш e-mail" class="subscribe-field">
           <button class="subscribe-button" type="submit">Подписаться</button>
         </form>
+      </section>
+
+      <section class="inner-search">
+        <section class="search">
+          <p class="search-title">
+            Найдено гостиниц: <span>38</span>
+          </p>
+          <select class="select-control" aria-label="сортировка">
+            <option value="cheap">Сначала дешевые</option>
+            <option value="expensive">Сначала дорогие</option>
+            <option value="popular">Сначала популярные</option>
+          </select>
+
+          <ul class="search-display-list">
+            <li class="display-item">
+              <a href="#" class="display-btn current-link show-table">
+                <span class="visually-hidden">Показать карточки</span>
+              </a>
+            </li>
+
+            <li class="display-item">
+              <a href="#" class="display-btn show-single-item">
+                <span class="visually-hidden">Показать по одной карточке</span>
+              </a>
+            </li>
+
+            <li class="display-item">
+              <a href="#" class="display-btn show-list">
+                <span class="visually-hidden">Показать список</span>
+              </a>
+            </li>
+          </ul>
+
+
+
+        </section>
+
       </section>
 
     </main>
