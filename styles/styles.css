@@ -21,3 +21,10 @@ body {
   background: #ffffff;
   color: #000000;
 }
+
+/* Pages  */
+
+.page-header {
+  color: #000000;
+  background: #ffffff;
+}
