@@ -44,3 +44,24 @@ body {
   background-repeat: no-repeat;
   background-size: 100% auto;
 }
+
+/* Advantages-block */
+
+.advantages-block {
+  text-align: center;
+}
+
+.header-block {
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 36px;
+  text-transform: uppercase;
+  color: #000000;
+}
+
+.desc-block {
+  font-weight: 400;
+  font-size: 22px;
+  color: #333333;
+  line-height: 26px;
+}
