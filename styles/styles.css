@@ -65,3 +65,20 @@ body {
   color: #333333;
   line-height: 26px;
 }
+
+/* Advantages */
+/* List */
+.advantages-list {
+  list-style-type: none;
+}
+.advantages-title {
+  font-weight: 700;
+  font-size: 24px;
+  color: #000000;
+  text-transform: uppercase;
+  line-height: 28px;
+}
+
+.advantages-desc {
+
+}
