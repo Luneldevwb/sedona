@@ -70,6 +70,7 @@ body {
 /* List */
 .advantages-list {
   list-style-type: none;
+  text-align: center;
 }
 .advantages-title {
   font-weight: 700;
@@ -80,5 +81,5 @@ body {
 }
 
 .advantages-desc {
-
+  font-weight: 400;
 }
