@@ -39,6 +39,7 @@ body {
   text-align: center;
 }
 
+/* Main-index */
 .main-index {
   background-image: url("../images/background-hero.jpg");
   background-repeat: no-repeat;
@@ -47,10 +48,11 @@ body {
 
 /* Advantages-block */
 
-.advantages-block {
+.advantages-block, .advantages-block-welcome {
   text-align: center;
 }
 
+/* Header */
 .header-block {
   font-weight: 700;
   font-size: 30px;
@@ -59,6 +61,7 @@ body {
   color: #000000;
 }
 
+/* Description */
 .desc-block {
   font-weight: 400;
   font-size: 22px;
@@ -72,6 +75,8 @@ body {
   list-style-type: none;
   text-align: center;
 }
+
+/* Title */
 .advantages-title {
   font-weight: 700;
   font-size: 24px;
@@ -80,6 +85,47 @@ body {
   line-height: 28px;
 }
 
+/* Description */
 .advantages-desc {
   font-weight: 400;
+}
+
+/* Services */
+/* List */
+.services-list {
+  text-align: center;
+}
+
+/* Title */
+.services-title {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  text-transform: uppercase;
+}
+
+/* Interested */
+.interested {
+  text-align: center;
+}
+
+/* Subscribe */
+.subscribe {
+  text-align: center;
+}
+
+/* Footer */
+/* Footer-contact-number */
+.footer-contact-number {
+  text-align: center;
+}
+
+/* Footer-phone */
+.footer-phone {
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 40px;
+  color: #000000;
+  text-transform: uppercase;
+  text-decoration: none;
 }
