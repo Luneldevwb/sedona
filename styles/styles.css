@@ -150,3 +150,19 @@ input::placeholder {
   text-transform: uppercase;
   text-decoration: none;
 }
+
+.inner-header-title {
+  font-size: 60px;
+  font-weight: 700;
+  line-height: 78px;
+  color: #ffffff;
+}
+
+/* Breadcrumbs */
+.breadcrumbs {
+  color: #ffffff;
+}
+/*link*/
+.breacrumbs-link {
+  color: inherit;
+}
