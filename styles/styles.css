@@ -24,7 +24,7 @@ body {
 
 .button {
   font-family: inherit;
-  font-size: 20px;
+  font-size: 16px;
   font-weight: 700;
   line-height: 36px;
   text-align: center;
@@ -32,6 +32,14 @@ body {
   color: #ffffff;
   text-decoration: none;
   text-transform: uppercase;
+}
+
+.search-button {
+  font-size: 20px;
+}
+
+.button-reset {
+  background-color: transparent;
 }
 
 /* Pages  */
@@ -158,6 +166,10 @@ input::placeholder {
   color: #ffffff;
 }
 
+.inner-header {
+  background-color: chocolate;
+}
+
 /* Breadcrumbs */
 .breadcrumbs {
   color: #ffffff;
@@ -182,3 +194,5 @@ input::placeholder {
   line-height: 23px;
   color: #ffffff;
 }
+
+/* Search */
