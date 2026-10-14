@@ -42,6 +42,10 @@ body {
   background-color: transparent;
 }
 
+.display-button {
+  background-color: chocolate;
+}
+
 /* Pages  */
 
 .page-header {
@@ -196,3 +200,15 @@ input::placeholder {
 }
 
 /* Search */
+.select-control {
+ font-size: 18px;
+ line-height: 21px;
+ font-weight: 400;
+}
+
+.search-title {
+font-weight: 700;
+font-size: 30px;
+line-height: 36px;
+text-transform: uppercase;
+}
