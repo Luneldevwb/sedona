@@ -212,3 +212,44 @@ font-size: 30px;
 line-height: 36px;
 text-transform: uppercase;
 }
+
+/* Product */
+/* Title */
+.product-card-title {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+}
+
+/* Item */
+.product-type {
+  color: #333333;
+}
+
+/* Price */
+.product-card-price {
+  color: #333333;
+}
+
+/* Buttons */
+.product-button-favorite {
+  background-color: #82B3D3;
+}
+
+.product-button-favorite-green {
+  background-color: #7DB54F;
+}
+
+/* Rating */
+.product-rating-hotel {
+  background-color: #F2F2F2;
+}
+.hotel-rating {
+  display: block;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #333333;
+}
