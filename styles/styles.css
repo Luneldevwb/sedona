@@ -40,9 +40,22 @@ body {
 
 .button-reset {
   background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.button-submit {
+  background-color: #82B3D3;
+  cursor: pointer;
+}
+
+.subscribe-button {
+  background-color: #82B3D3;
+  cursor: pointer;
 }
 
 .display-button {
+  cursor: pointer;
   background-color: chocolate;
 }
 
@@ -71,7 +84,6 @@ body {
 }
 
 /* Advantages-block */
-
 .advantages-block, .advantages-block-welcome {
   text-align: center;
 }
@@ -136,14 +148,24 @@ body {
 /* Subscribe */
 .subscribe {
   text-align: center;
+  background-image: url(../images/background-subcribe.jpg);
+  background-size: 100% auto;
+  background-repeat: no-repeat;
 }
 
+.subscribe-title {
+  color:#ffffff;
+}
+
+.subscribe-desc {
+  color: #ffffff;
+}
 .subscribe-field {
   background-color: #F2F2F2;
 }
 
-/* Input */
 
+/* Input */
 input::placeholder {
   font-size: 18px;
   font-weight: 400;
@@ -168,15 +190,19 @@ input::placeholder {
   text-decoration: none;
 }
 
+/* Inner-header */
+.inner-header {
+  background-image: url(../images/background-catalog-main-inner.jpg);
+  background-repeat: no-repeat;
+  background-size:100% auto;
+}
+
+/* Title */
 .inner-header-title {
   font-size: 60px;
   font-weight: 700;
   line-height: 78px;
   color: #ffffff;
-}
-
-.inner-header {
-  background-color: chocolate;
 }
 
 /* Breadcrumbs */
