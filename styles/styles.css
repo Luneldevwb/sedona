@@ -164,7 +164,17 @@ body {
   background-color: #F2F2F2;
 }
 
+.subscribe-witout-img {
+  background: none;
+}
 
+.title {
+  color: #000000;
+}
+
+.desc {
+  color: #333333;
+}
 /* Input */
 input::placeholder {
   font-size: 18px;
