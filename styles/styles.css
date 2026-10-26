@@ -19,7 +19,7 @@ body {
   font-size: 18px;
   line-height: 21px;
   background: #ffffff;
-  color: #000000;
+  color: #333333;
 }
 
 .button {
@@ -101,7 +101,6 @@ body {
 .desc-block {
   font-weight: 400;
   font-size: 22px;
-  color: #333333;
   line-height: 26px;
 }
 
@@ -175,6 +174,7 @@ body {
 .desc {
   color: #333333;
 }
+
 /* Input */
 input::placeholder {
   font-size: 18px;
