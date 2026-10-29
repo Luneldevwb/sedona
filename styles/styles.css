@@ -77,11 +77,13 @@ body {
   text-align: center;
 }
 
-/* Main-index */
-.main-index {
+/* Hero */
+.hero {
   background-image: url("../images/background-hero.jpg");
   background-repeat: no-repeat;
-  background-size: 100% auto;
+  background-size: cover;
+  background-position: center;
+  background-color: rgba(131 179 211 / 20%);
 }
 
 /* Advantages-block */
@@ -149,8 +151,9 @@ body {
 .subscribe {
   text-align: center;
   background-image: url(../images/background-subcribe.jpg);
-  background-size: 100% auto;
+  background-size: cover;
   background-repeat: no-repeat;
+  background-color: #82B3D3;
 }
 
 .subscribe-title {
