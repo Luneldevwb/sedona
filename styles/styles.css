@@ -208,7 +208,9 @@ input::placeholder {
 .inner-header {
   background-image: url(../images/background-catalog-main-inner.jpg);
   background-repeat: no-repeat;
-  background-size:100% auto;
+  background-size: cover;
+  background-color: #82B3D3;
+  background-position: center;
 }
 
 /* Title */
